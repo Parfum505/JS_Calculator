@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JS Calculator</title>
+
+	<!-- Bootstrap CSS -->
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="container">
+
+		<!-- Matrix -->
+		<div class="matrix">
+		<div class="video">
+			<iframe src="https://www.youtube.com/embed/ZaAOMtAj6dQ" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div id="btn-close" class="btn btn-success">X</div>
+		<div class="gate left"></div>
+		<div class="gate right"></div>
+		<div class="question">
+		<p>Wanna do some Math?</p>
+		<div class="btn btn-matrix btn-danger">Yes</div>
+		<div class="btn btn-matrix btn-primary">No</div>
+		</div>
+	</div> <!-- /Matrix -->
+
+	<!-- Calculator -->
+	<div class="calculator text-center">
+	<h1 class="text-center">JavaScript Calculator</h1>
+		<div class="screen text-right"></div>
+		<div class="row">
+			<div class="btn btn-calc btn-danger text-uppercase">ac</div>
+			<div class="btn btn-calc btn-danger text-uppercase">ce</div>
+			<div class="btn btn-calc btn-info">%</div>
+			<div class="btn btn-calc btn-info">/</div>
+		</div>
+		<div class="row">
+			<div class="btn btn-calc btn-default">7</div>
+			<div class="btn btn-calc btn-default">8</div>
+			<div class="btn btn-calc btn-default">9</div>
+			<div class="btn btn-calc btn-info">*</div>
+		</div>
+			<div class="row">
+			<div class="btn btn-calc btn-default">4</div>
+			<div class="btn btn-calc btn-default">5</div>
+			<div class="btn btn-calc btn-default">6</div>
+			<div class="btn btn-calc btn-info">-</div>
+		</div>
+		<div class="row">
+			<div class="btn btn-calc btn-default">1</div>
+			<div class="btn btn-calc btn-default">2</div>
+			<div class="btn btn-calc btn-default">3</div>
+			<div class="btn btn-calc invisible"></div>
+		</div>
+		<div class="row">
+			<div class="btn btn-calc btn-default">0</div>
+			<div class="btn btn-calc btn-default">.</div>
+			<div class="btn btn-calc btn-info">=</div>
+			<div class="btn btn-calc invisible"></div>
+			<div class="btn btn-calc btn-info plus">+</div>
+		</div>
+	</div><!-- /Calculator -->
+
+	</div>
+
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Bootstrap JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	<script src="js/script.js"></script>
+</body>
+</html>
